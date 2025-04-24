@@ -98,4 +98,11 @@ footer{
         height: 170px;
     }
 }
-
+@media (min-width: 578px) {
+.carousel{
+    margin-bottom: 7rem !important;
+}
+footer{
+    margin-top: 7rem !important;
+}
+}
