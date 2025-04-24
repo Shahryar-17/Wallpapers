@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    background: linear-gradient(60deg, rgb(190, 220, 255), black);
+    background: #f0f0f0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(0, 0, 0);
+    height: max-content;
+}
+a {
+    color: inherit !important;
+}
+
+.navbar-container{
+   padding: .5rem;
+}
+.navbar-nav{
+    gap: 2rem;
+}
+.navbar-brand {
+    margin-right: 3rem;
+}
+
+.image img {
+    width: 350px;
+    height: 200px;
+    border-radius: .5rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 8px rgb(0, 0, 0, 0.9);
+}
+.container h1 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    text-shadow: 4px 8px 11px rgb(0, 0, 0, 0.9);
+}
+.container .cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.container .cards .card {
+    background-color: transparent;
+    border-radius: .5rem;
+    border-style: none;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 300px;
+}
+
+.container .cards .card a {
+    color: rgb(255, 255, 255) !important;
+    text-decoration: none;
+    background-color: rgb(0, 0, 0);
+    padding: .5rem 2rem;
+    border-radius: .5rem;
+    box-shadow: 0 4px 8px rgb(0, 0, 0, 0.8);
+    width: max-content;
+}
+
+.container .cards .card a:hover{
+    background-color: crimson;
+    color: rgb(255, 255, 255) !important;
+}
+
+footer{
+    background-color: black;
+    padding: 0.1rem 0rem;
+    padding-top: .7rem;
+    text-align: center;
+    color: white;
+}
+
+@media (max-width: 578px) {
+    .navbar-nav {
+        gap: 0;
+        font-size: 1rem;
+    }.container {
+        padding: 0rem;
+    }
+    
+    .navbar-toggler {
+        background-color: white !important;
+        font-size: .7rem;
+    }
+    .container h1{
+        font-size: 1.7rem;
+    }
+}
+

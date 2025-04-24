@@ -1,0 +1,18 @@
+.was-validated{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.was-validated h2 {
+    text-align: center;
+    margin: 1rem 0;
+    text-shadow: 2px 4px 11px rgb(0,0,0,0.2);
+}
+.was-validated button{
+    padding: .5rem 2rem;
+}
+@media (max-width: 578px) {
+    .was-validated{
+        padding: 0 1.5rem;
+    }
+}

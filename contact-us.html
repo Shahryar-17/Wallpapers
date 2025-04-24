@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style-contact-us.css">
+    <title>Wallpaper</title>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+
+    <div class="container-fluid">
+        <div class="container navbar-container">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="index.html">Wallpapers</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Link 1</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Link 2</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Link 3</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contact Us</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    <!-- Form -->
+
+    <div class="container">
+        <form class="was-validated">
+            <h2 class="mt-4 mb-5">SUPPORT</h2>
+            <div class="mb-3">
+                <textarea class="form-control is-invalid" id="validationTextarea"
+                    placeholder="Describe your issue" required></textarea>
+            </div>
+
+            <div class="form-check mb-3">
+                <input type="checkbox" class="form-check-input" id="validationFormCheck1" required>
+                <label class="form-check-label" for="validationFormCheck1">I'm not a robot</label>
+            </div>
+
+            <div class="form-check">
+                <input type="radio" class="form-check-input" id="validationFormCheck2" name="radio-stacked" required>
+                <label class="form-check-label" for="validationFormCheck2">Male</label>
+            </div>
+            <div class="form-check mb-3">
+                <input type="radio" class="form-check-input" id="validationFormCheck3" name="radio-stacked" required>
+                <label class="form-check-label" for="validationFormCheck3">Female</label>
+            </div>
+
+            <div class="mb-3">
+                <select class="form-select" required aria-label="select example">
+                    <option value="">City</option>
+                    <option value="1">Karachi</option>
+                    <option value="2">Lahore</option>
+                    <option value="3">Islamabad</option>
+                </select>
+            </div>
+
+            <div class="mb-5">
+                <label class="mt-2 mb-2" for="">Upload screenshot of your issue</label>
+                <input type="file" class="form-control" aria-label="file example" required>
+            </div>
+
+            <div class="mb-5">
+                <button class="btn btn-primary" type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+
+    <footer>
+        <p>All Rights Reserved</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
